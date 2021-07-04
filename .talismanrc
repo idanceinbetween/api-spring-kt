@@ -1,0 +1,8 @@
+fileignoreconfig:
+- filename: src/main/docker/docker-compose.yml
+  checksum: 0418fa36f38e7447eed7cd96d15f6891ee158697f938dfb9c42784a7f3cbb9f0
+  ignore_detectors: []
+- filename: src/main/resources/application.yaml
+  checksum: 3731098f1b544dcb780a905e55fe4b882dd392f1f21015d3bb0ec0698c0fa2da
+  ignore_detectors: []
+scopeconfig: []

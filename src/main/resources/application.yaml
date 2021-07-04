@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    #  We are not deploying the app at the moment, so just need to point to a postgres instance in docker compose
+    url: jdbc:postgresql://localhost:5432/compose-postgres
+    username: compose-postgres
+    password: compose-postgres
+    driverClassName: org.postgresql.Driver
+  liquibase:
+    enabled: false
